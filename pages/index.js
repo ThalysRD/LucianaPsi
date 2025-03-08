@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import image from '../public/images/image.jpeg';
 
-function Home() {
+export default function Home() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -73,5 +73,3 @@ function Home() {
         </body>
     );
 }
-
-export default Home;
